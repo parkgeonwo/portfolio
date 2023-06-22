@@ -1,3 +1,8 @@
+.home-slider{
+  touch-action: none;
+}
+
+
 
 .modal-btn-back{
   padding: 0px !important;
@@ -84,6 +89,12 @@
 @media (max-width: 720px){
   .img-back>iframe{
     height: 300px;
+  }
+  .owl-carousel.home-slider {
+    z-index: -1;
+  }
+  #home-section{
+    margin-top: -150px;
   }
 }
 
